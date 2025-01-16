@@ -17,6 +17,6 @@ module purge
 module load sdsc cpu/0.15.4 gcc/9.2.0 openmpi/4.1.1
 module load anaconda3/2020.11
 source /cm/shared/apps/spack/cpu/opt/spack/linux-centos8-zen2/gcc-10.2.0/anaconda3-2020.11-weucuj4yrdybcuqro5v3mvuq3po7rhjt/etc/profile.d/conda.sh
-conda activate multinest
+conda activate multinest1
 export LD_LIBRARY_PATH=/home/thussenot/MultiNest/lib/:$LD_LIBRARY_PATH
 mpiexec -n 32 bash ./nmma_instruction.sh
